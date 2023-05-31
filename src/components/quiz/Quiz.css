@@ -1,0 +1,19 @@
+.quiz{
+    /* border: 1px solid red; */
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+}
+
+.quizSubSection{
+    /* border: 1px solid black; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 55vh;
+    width: 30vw;
+    flex-direction: column;
+    border-radius: 0.4rem;
+    margin: 4rem auto;
+    background-color: rgb(7, 141, 203);
+}

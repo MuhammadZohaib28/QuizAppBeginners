@@ -1,0 +1,42 @@
+.start{
+    /* border: 1px solid red; */
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+}
+
+.startSubSection{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55vh;
+    width: 30vw;
+    flex-direction: column;
+    border-radius: 0.4rem;
+    margin: 4rem auto;
+    background-color: rgb(7, 141, 203);
+}
+
+input, button{
+    height: 2.8rem;
+    width: 20rem;
+    font-size: 1.2rem;
+    margin: 0.2rem auto;
+    border-radius: 0.4rem;
+    border: none;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+
+}
+.startNameLine{
+    color: white;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    line-height: 0;
+}
+
+input:focus{
+   outline: none;
+}
